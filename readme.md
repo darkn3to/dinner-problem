@@ -27,3 +27,12 @@ Dhruv wants to ensure that the combination of friends he invites will result in 
 3. Harsh gets along with everyone.
 
 Given these constraints, Dhruv wants to find all possible combinations of friends he can invite to ensure a pleasant evening. 
+
+## Solution Approach
+
+1. Create a five channel quantum circuit qᵢ. ```qᵢ = {q₀, q₁, q₂, q₃, q₄}```. Each qubit represents a friend's name in lexicographic order (q₀ represents Abhinav's presence, q₁ represnts Ayaan's presence and so on...). 
+3. Generate the combination of friends that satisfy the afore-mentioned conditions using ```generate_combinations()```.
+4. Initialize the qubits in Superposition by applying Hadamard gate to each qubit. This allows the circuit to explore every possible state.
+5. Create an oracle that identifies each valid state (each valid combination of friends). For each valid state, the oracle constructs a unique diagonal matrix that, imparts a negative phase specifically to that state, effectively marking it. The diagonal matrix is multiplied with the state vector of the state to obtain a marked state with negative phase.
+
+Suppose we want to find a state 01 in a two qubit system. 
