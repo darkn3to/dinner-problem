@@ -26,6 +26,4 @@ Dhruv wants to ensure that the combination of friends he invites will result in 
 2. Ayaan and Abhinav have recently had a disagreement, so they should not be invited together.
 3. Harsh gets along with everyone.
 
-Given these constraints, Dhruv wants to find all possible combinations of three friends he can invite to ensure a pleasant evening. 
-
-Use Grover's search algorithm to find all valid combinations of three friends that Dhruv can invite to the dinner. 
+Given these constraints, Dhruv wants to find all possible combinations of friends he can invite to ensure a pleasant evening. 
