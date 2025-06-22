@@ -18,12 +18,12 @@ Grover's Algorithm is a quantum algorithm that provides a quadratic speedup for 
 
 ## Problem Statement
 
-Dhruv is hosting a dinner party and he has invited five of his friends: Manas, Charlie, Ayaan, Abhinav, and Harsh. However, due to space constraints, he can only invite three friends to the dinner. 
+Dhruv is hosting a dinner party and he has invited five of his friends: Manas, Charlie, Aditya, Abhinav, and Harsh. However, due to space constraints, he can only invite three friends to the dinner. 
 
 Dhruv wants to ensure that the combination of friends he invites will result in a pleasant evening. He knows that:
 
 1. Manas and Charlie have a lot in common and should be invited together.
-2. Ayaan and Abhinav have recently had a disagreement, so they should not be invited together.
+2. Aditya and Abhinav have recently had a disagreement, so they should not be invited together.
 3. Harsh gets along with everyone.
 
 Given these constraints, Dhruv wants to find all possible combinations of friends he can invite to ensure a pleasant evening. 
@@ -124,7 +124,7 @@ Here's how to interpret these states:
 
 - `11001` corresponds to Manas, Charlie, and Harsh.
 - `11011` corresponds to Manas, Charlie, Abhinav, and Harsh.
-- `11101` corresponds to Manas, Charlie, Ayaan, and Harsh.
+- `11101` corresponds to Manas, Charlie, Aditya, and Harsh.
 
 These states are highlighted in the histogram of probabilities, indicating that they have a higher probability of being measured as a result of the quantum operations performed by our algorithm. This means that these combinations of friends are the most likely solutions to our problem, according to the rules we've defined.
 
